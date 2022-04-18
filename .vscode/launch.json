@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch FineCollectionApplication",
+            "request": "launch",
+            "mainClass": "dapr.fines.FineCollectionApplication",
+            "projectName": "fine-collection-service"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimulationApplication",
+            "request": "launch",
+            "mainClass": "dapr.simulation.SimulationApplication",
+            "projectName": "simulation"
+        },
+        {
+            "type": "java",
+            "name": "Launch TrafficControlApplication",
+            "request": "launch",
+            "mainClass": "dapr.traffic.TrafficControlApplication",
+            "projectName": "traffic-control-service"
+        },
+        {
+            "type": "java",
+            "name": "Launch VehicleRegistrationApplication",
+            "request": "launch",
+            "mainClass": "dapr.vehicle.VehicleRegistrationApplication",
+            "projectName": "vehicle-registration-service"
+        }
+    ]
+}
